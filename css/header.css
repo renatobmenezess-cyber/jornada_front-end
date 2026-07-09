@@ -3,23 +3,22 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
-  margin: 0px 0 px 48px;
-}  
-
-input[type="checkbox"]:checked ~ nav{
-  display:block
 }
 
-.navigation-menu{
-  margin-top: 24px;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
 
 nav {

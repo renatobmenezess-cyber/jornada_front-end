@@ -26,6 +26,7 @@ input[type="checkbox"]:checked ~ nav {
 .list-links li a{
   color: var(--text-primary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weight);
 }
 
 .list-links{
@@ -38,4 +39,29 @@ input[type="checkbox"]:checked ~ nav {
 
 nav {
   display: none;
+}
+
+/*RESPONSIVIDADE: TABLET*/
+@media screen and (min-width:768px){
+  
+  .navigation-menu{
+    margin-top: 0;
+    width: 467px
+  }
+  
+  .navigation-menu label{
+    display: none;
+  }
+
+  .navigation-menu nav{
+    display: block;
+  }
+  
+  .navigation-menu ul{
+    display: flex;
+    align-items: center;
+    align-content: space-between ;
+    width: 460px;
+    margin: 0px;
+  }
 }

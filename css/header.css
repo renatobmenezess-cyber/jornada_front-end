@@ -4,7 +4,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 38px 48px;
+  padding: 38px 40px;
   position: relative;
 }
 
@@ -19,6 +19,21 @@ input[type="checkbox"]:checked ~ nav {
   position: absolute;
   top: 100%;
   left: 0;
+  width: 100%;
+  background-color: var(--background-terceary-color);
+}
+
+.list-links li a{
+  color: var(--text-primary-color);
+  text-decoration: none;
+}
+
+.list-links{
+  list-style: none;
+  font-family: "Montserrat";
+}
+.list-links li{
+  margin: 16px;
 }
 
 nav {

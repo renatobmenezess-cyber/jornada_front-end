@@ -5,3 +5,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Responsividade para Tablet*/
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/imagem-lago-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Responsividade para Desktop*/
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/imagem-lago-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

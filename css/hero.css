@@ -6,6 +6,16 @@
   background-size: cover;
 }
 
+.hero h2 {
+  padding: 90px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* Responsividade para Tablet*/
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -14,6 +24,16 @@
     background-image: url(../img/imagem-lago-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 90px 60px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-family: "Montserrat";
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
   }
 }
 
@@ -25,5 +45,15 @@
     background-image: url(../img/imagem-lago-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 90px 160px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-family: "Montserrat";
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
   }
 }
